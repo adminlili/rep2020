@@ -17,7 +17,8 @@ info["processor name"] = processor_name
 architecture_details = platform.architecture()
 info["architecture details"] = architecture_details
 
-
+for i, j in info.items():
+	print(i, " - ", j)
 
 i = 0
 while i < 15:
