@@ -14,6 +14,8 @@ info["system name"] = system_name
 processor_name = platform.processor()
 info["processor name"] = processor_name
 
+architecture_details = platform.architecture()
+info["architecture details"] = architecture_details
 
 
 
